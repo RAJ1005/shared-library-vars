@@ -1,3 +1,6 @@
 def call() {
-  sh 'mvn clean package'
+  sh 'mvn build'
+}
+def call() {
+  sh 'mvn compile'
 }
